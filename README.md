@@ -1,4 +1,4 @@
-[![Tweet](https://img.shields.io/twitter/szUrl/http/Hktalent3135773.svg?style=social)](https://twitter.com/intent/follow?screen_name=Hktalent3135773) [![Follow on Twitter](https://img.shields.io/twitter/follow/Hktalent3135773.svg?style=social&label=Follow)](https://twitter.com/intent/follow?screen_name=Hktalent3135773) [![GitHub Followers](https://img.shields.io/github/followers/hktalent.svg?style=social&label=Follow)](https://github.com/hktalent/)
+[![Tweet](https://img.shields.io/twitter/url/http/Hktalent3135773.svg?style=social)](https://twitter.com/intent/follow?screen_name=Hktalent3135773) [![Follow on Twitter](https://img.shields.io/twitter/follow/Hktalent3135773.svg?style=social&label=Follow)](https://twitter.com/intent/follow?screen_name=Hktalent3135773) [![GitHub Followers](https://img.shields.io/github/followers/hktalent.svg?style=social&label=Follow)](https://github.com/hktalent/)
 <p align="center">
    <a href="/README_CN.md">README_中文</a> •
    <a href="/static/Installation.md">Compile/Install/Run</a> •
@@ -127,9 +127,9 @@ mkdir ~/MyWork/;cd ~/MyWork/;git clone https://github.com/hktalent/log4j-scan
 
 # how to install
 download from
-<a href=https://github.com/hktalent/ProScan4all/releases>Releases</a>
+<a href=https://github.com/hktalent/scan4all/releases>Releases</a>
 ```bash
-go install github.com/hktalent/ProScan4all@2.6.9
+go install github.com/hktalent/scan4all@latest
 scan4all -h
 ````
 # how to use
@@ -146,7 +146,7 @@ where 92.168.0.111 is the target to query
 
 ````
 - Please install nmap by yourself before use
-  <a href=https://github.com/hktalent/ProScan4all/discussions>Using Help</a>
+  <a href=https://github.com/hktalent/scan4all/discussions>Using Help</a>
 ```bash
 go build
 # Precise scan szUrl list UrlPrecise=true
@@ -169,7 +169,7 @@ priorityNmap=false ./scan4all -tp http -list allOut.txt -v
 - how use Cookie?
 - libpcap related question
 
-more see: <a href=https://github.com/hktalent/ProScan4all/discussions>discussions</a>
+more see: <a href=https://github.com/hktalent/scan4all/discussions>discussions</a>
 
 # Changelog
 - 2022-07-28 Added substr and aes_cbc dsl helper by me <a href="https://github.com/projectdiscovery/nuclei/releases/tag/v2.7.7">nuclei v2.7.7</a>
@@ -193,12 +193,11 @@ more see: <a href=https://github.com/hktalent/ProScan4all/discussions>discussion
 # Communication group (WeChat, QQ，Tg)
 | Wechat | Or | QQchat | Or | Tg |
 | --- |--- |--- |--- |--- |
-
-|<img width=166 src=https://github.com/hktalent/ProScan4all/blob/main/static/wcq.JPG>||<img width=166 src=https://github.com/hktalent/ProScan4all/blob/main/static/qqc.jpg>||<img width=166 src=https://github.com/hktalent/ProScan4all/blob/main/static/tg.jpg>|
+|<img width=166 src=https://github.com/hktalent/scan4all/blob/main/static/wcq.JPG>||<img width=166 src=https://github.com/hktalent/scan4all/blob/main/static/qqc.jpg>||<img width=166 src=https://github.com/hktalent/scan4all/blob/main/static/tg.jpg>|
 
 
 ## 💖Star
-[![Stargazers over time](https://starchart.cc/hktalent/ProScan4all.svg)](https://starchart.cc/hktalent/ProScan4all)
+[![Stargazers over time](https://starchart.cc/hktalent/scan4all.svg)](https://starchart.cc/hktalent/scan4all)
 
 # Donation
 | Wechat Pay | AliPay | Paypal | BTC Pay |BCH Pay |
